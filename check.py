@@ -13,4 +13,4 @@ def apache_log_reader(logfile):
 
 # Create entry point of our code
 if __name__ == '__main__':
-    apache_log_reader("/var/log/httpd/access_log")
+    apache_log_reader("/root/access_log")
