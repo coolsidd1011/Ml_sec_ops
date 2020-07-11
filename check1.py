@@ -1,5 +1,5 @@
 import re 
-file1 = open('/var/log/httpd/access_log', 'r') 
+file1 = open('/root/access_log', 'r') 
 count = 0
 
 ipaddr = re.compile(r'^\d+.\d+.\d+.\d+') 
